@@ -2,8 +2,15 @@ package com.educacionit.oop;
 
 public class Student {
 	
-	String name;
+	public String name;
+	public String lastname;
+	public int age;
+	public String dni;
 	
-	String lastname;
-
+	
+	public void read () {
+		
+		System.out.println (name + "is reading...");
+	}
+	
 }
